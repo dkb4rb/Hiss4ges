@@ -1,0 +1,14 @@
+.AppWelcome {
+  width: 710px;
+  background-color: brown;
+  margin-right: 300px;
+  float: right;
+  text-align: center;
+}
+.AppWelcome img {
+  margin-top: 2%;
+  width: 700px;
+	height: 150px;
+	object-fit: none;
+	border: 3px solid #ff9daa;
+}

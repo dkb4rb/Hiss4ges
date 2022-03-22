@@ -1,0 +1,24 @@
+.container_menu {
+    background-color: red;
+}
+
+.Menu_buttons { 
+    color: blue;
+    position: absolute;
+    margin: auto;
+    top: 233px;
+    left: 160px;
+    display: grid;
+}
+
+.middle {
+    text-align: center;
+}
+
+.Menu_Message {
+    display: grid;
+    position: absolute;
+    margin: auto;
+    left: 365px;
+    top: 228px;
+}
