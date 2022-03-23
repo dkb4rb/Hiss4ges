@@ -1,0 +1,12 @@
+
+
+
+
+POST http://localhost:3030/usuarios
+Content-Type: application/json
+
+{
+    "name": "Nia",
+    "user_mail": "jjuasasa@hmal.com",
+    "user_pass": "Holasassa"
+}
