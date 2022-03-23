@@ -1,24 +1,22 @@
 import React, { Component } from "react";
 import './Login.css'
 import Imgg from "../Image_Background/imgg";
+import { FormLogin } from "./FormLogin"
+
 
 class Login extends Component {
 
-    render(){
-        return(
+    render() {
+        return (
             <div className="container_Login">
                 <div className="Login">
-                    <div className="Container_Buttoms"></div>     
-                    <Imgg imagen={"Img_Background_Login"} />           
-                    <h1>Holas</h1>
-                    <h1>Holas</h1>
-
-
-                    
+                    <div className="Container_Buttoms"></div>
+                    <Imgg imagen={"Img_Background_Login"} />
+                    <FormLogin />
                 </div>
 
-            </div> 
-           
+            </div>
+
         )
     }
 

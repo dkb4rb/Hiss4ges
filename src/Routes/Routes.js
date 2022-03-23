@@ -13,7 +13,6 @@ function Routes(){
 
                 <Route exact path="/" component={Menu}/>
                 <Route exact path="/Login" component={Login}/>
-            
             </Switch>
         </BrowserRouter>
     )
