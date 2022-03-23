@@ -12,8 +12,7 @@
 }
 
 .inputReg {
-  margin: 0;
-  margin-left: 18%;
+  margin: auto;
   margin-top: 10%;
   display: block;
   border: none;
@@ -22,6 +21,7 @@
   box-shadow: 1px 1px 10px #12cdd4;
   text-align: center;
   font-size: 105%;
+  background: #272537a8;
 }
 
 .inpname {
