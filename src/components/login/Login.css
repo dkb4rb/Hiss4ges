@@ -19,7 +19,7 @@
   margin-top: 2%;
   padding: 3%;
   padding-bottom: 5%;
-  box-shadow: -20px -10px 400px #12cdd4;
+  box-shadow: -20px -10px 150px rgba(18, 205, 215, 0.3);
 }
 .inp {
   display: block;

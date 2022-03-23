@@ -14,7 +14,7 @@ const Layout = () => {
 
         </div>
         <div className="Foot">
-          <footer>Este es el foot</footer>
+          <footer>HiSsageS Footer</footer>
         </div>
       </div>
     </>

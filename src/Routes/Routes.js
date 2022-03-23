@@ -1,22 +1,22 @@
 import React from "react";
-import { BrowserRouter, Switch,  Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Login from "../components/login/Login";
-import Login from "../components/register/Register";
+import Register from "../components/register/Register";
 import Menu from "../components/Menu/Menu";
 
-function Routes(){
+function Routes() {
 
-    return(
+    return (
         <BrowserRouter>
             <Switch>
 
-                <Route exact path="/" component={Menu}/>
-                <Route exact path="/Login" component={Login}/>
-                <Route exact path="/Register" component={Register}/>
+                <Route exact path="/" component={Menu} />
+                <Route exact path="/Login" component={Login} />
+                <Route exact path="/Register" component={Register} />
             </Switch>
         </BrowserRouter>
     )
- 
+
 }
 
 export default Routes;

@@ -20,6 +20,14 @@
   background-size: 700px;
   background-repeat: no-repeat;
 }
+.Img_Background_Register {
+  background-image: url("https://i.ibb.co/p1r9sdc/Register.png");
+  height: 580px;
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+
+}
 
 .Img_container {
   margin: auto;
