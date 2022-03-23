@@ -1,17 +1,24 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+const express = require("express");
+const app = express();
+const cors = require("cors");
+const db = require("./DB/database");
+const usuarios = require("./Routes/usuarios");
+const port = process.env.PORT || 3030;
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+(async () => {
+  try {
+    await db.authenticate();
+    await db.sync();
+    console.log("Conectados a la base de datos");
+  } catch (error) {
+    throw new Error(error);
+  }
+})();
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+app.use(express.json());
+app.use(cors());
+app.use("/usuarios", usuarios);
+
+app.listen(port, () => {
+  console.log("El servicio se inicio en el puerto: ", port);
+});
