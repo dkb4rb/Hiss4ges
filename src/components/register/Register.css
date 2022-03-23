@@ -1,0 +1,76 @@
+.NewRegister{
+    text-align: center;
+    border: 2px solid #12cdd4;
+    border-radius: 15%;
+    width: max-content;
+    margin-left: 15%;
+    margin-top: 2%;
+    padding: 3%;
+    padding-bottom: 5%;
+    box-shadow: -20px -10px 400px #12cdd4;
+}
+
+.input{
+    display: block;
+    border: 2px solid #12cdd4;
+    border: none;
+    border-radius: 20px 20px;
+    outline-color: #12cdd4;
+    box-shadow: 1px 1px 10px #12cdd4;
+    text-align: center;
+    font-size: 105%;
+}
+
+.inpname{
+    margin-bottom: 15%;
+}
+
+.inpLastName{
+    margin-top: 15%;
+}
+
+.inputinpEmail{
+    margin-top: 30%;
+}
+
+.inpNickName{
+    margin-top: 45%;
+}
+
+.inpDate{
+    margin-top: 60%;
+}
+
+.conectGoogle{
+    margin-top: 20%;
+    border-radius: 5px 5px;
+    border-color: #12cdd4;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border-radius: 10%;
+    border-color: #12cdd4;
+    box-shadow: 0px 0px 5px turquoise;
+}
+
+.conectFace{
+    margin-top: 20%;
+    border-radius: 5px 5px;
+    border-color: #12cdd4;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border-radius: 10%;
+    border-color: #12cdd4;
+    box-shadow: 0px 0px 5px turquoise;
+}
+
+.conectGoogle:hover{
+    transition: .3s ease;
+    box-shadow: 0px 0px 5px #3f85ec;
+}
+
+.conectFace:hover{
+    transition: .3s ease;
+    box-shadow: 0px 0px 5px #3f85ec;
+}

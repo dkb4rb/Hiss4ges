@@ -1,7 +1,7 @@
 import React from "react";
 import "./Menu.css";
 import Imgg from "../Image_Background/imgg";
-import { Lorem } from "../login/Lorem";
+import { Lorem } from "./Lorem";
 import { LogButton } from "./LogButton";
 import { RegButton } from "./RegButton"
 
