@@ -19,12 +19,6 @@ app.use(express.json());
 app.use(cors());
 app.use("/usuarios", usuarios);
 
-app.get("/", (res, req) => {
-  res.json({
-    msg: "BIenvenidos a Hiss4g3s",
-  });
-});
-
 app.listen(port, () => {
   console.log("El servicio se inicio en el puerto: ", port);
 });
