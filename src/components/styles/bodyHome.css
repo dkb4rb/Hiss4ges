@@ -1,11 +1,12 @@
 body.bodyHome {
   width: 100%;
   height: auto;
-  background-color: #000000; /*Este es el elemento que se esta renderizando primero*/
+  background-color: #000000d9; /*Este es el elemento que se esta renderizando primero*/
   padding: 0;
   margin: 0;
   /*background-image: url("https://media1.giphy.com/media/CQmiWaZrl5TJrCLX9o/giphy.gif?cid=790b761184b8f4917fa145b67a0fd52d1299c77720015005&rid=giphy.gif&ct=s");
-  */background-repeat: no-repeat;
+  */
+  background-repeat: no-repeat;
   background-size: 600px;
   background-position: 800px 50px;
 }

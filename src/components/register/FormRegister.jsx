@@ -5,30 +5,35 @@ function FormReg({ handleChange, form, setform }) {
   return (
     <form className="NewRegister">
       <input
+        autoComplete="off"
         onChange={handleChange}
         name="username"
         className="inputReg inpname"
         placeholder="NAME"
       />
       <input
+        autoComplete="off"
         onChange={handleChange}
         name="lastname"
         className="inputReg inpLastName"
         placeholder="LAST NAME"
       />
       <input
+        autoComplete="off"
         onChange={handleChange}
         name="nickname"
         className="inputReg inpNickName"
         placeholder="NICK NAME"
       />
       <input
+        autoComplete="off"
         onChange={handleChange}
         name="user_mail"
         className="inputReg inputinpEmail"
         placeholder="E-MAIL"
       />
       <input
+        autoComplete="off"
         onChange={handleChange}
         name="user_pass"
         className="inputReg inpPassword"
@@ -36,6 +41,7 @@ function FormReg({ handleChange, form, setform }) {
         placeholder="PASSWORD"
       />
       <input
+        autoComplete="off"
         onChange={handleChange}
         name="date_birth"
         className="inputReg inpDate"

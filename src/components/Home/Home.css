@@ -1,0 +1,52 @@
+.Container_Layouut {
+  text-align: center;
+}
+.logohi {
+  margin-top: 30px;
+  width: 19%;
+}
+.Img_Background_Menu {
+  background-image: url("https://media4.giphy.com/media/CQmiWaZrl5TJrCLX9o/giphy.gif?cid=790b761…&rid=giphy.gif&ct=s");
+  height: 580px;
+  background-size: 470px;
+  background-repeat: no-repeat;
+  background-position: 150px 125px;
+}
+
+.Img_Background_Login {
+  background-image: url("https://media3.giphy.com/media/bvPweH3WHCSQat1Opo/giphy.gif?cid=790b7611203fca789f5ef00a652e5f307b298823676a3bb4&rid=giphy.gif&ct=s");
+  height: 580px;
+  background-size: 700px;
+  background-repeat: no-repeat;
+}
+.Img_Background_Register {
+  background-image: url("https://i.ibb.co/p1r9sdc/Register.png");
+  height: 580px;
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+.Img_container {
+  margin: auto;
+  width: 45%;
+  height: auto;
+  margin-left: 55%;
+  position: absolute;
+  top: 45px;
+}
+
+.Foot {
+  width: 100%;
+  font-size: 120%;
+  position: absolute;
+  bottom: 0px;
+  color: rgba(28, 28, 230, 0.693);
+  text-align: center;
+}
+
+.Typical {
+  background-color: #6a54545c;
+  font-size: 42px;
+  color: #7a8be329;
+}
