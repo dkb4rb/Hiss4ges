@@ -22,12 +22,12 @@ const Layoutt = () => {
             loop={Infinity}
             wrapper="p"
           />
-          <h3>Nuestro team</h3>
+          <h3>Our Team</h3>
           <Typical
             steps={[
               "Estefania Ruiz :smile ",
               1000,
-              "Es nuesta Mejor",
+              "It's our Best",
               800,
               "Front-end Dev",
               800,
@@ -39,9 +39,21 @@ const Layoutt = () => {
             steps={[
               "Kevin Garcia",
               1000,
-              "Que seria sin el como ",
+              "What would it be without him as ",
               800,
               "Back-end Dev",
+              800,
+            ]}
+            loop={Infinity}
+            wrapper="p"
+          />
+          <Typical
+            steps={[
+              "Juan Duque",
+              1000,
+              "He always goes the extra mile ",
+              800,
+              "our best dev",
               800,
             ]}
             loop={Infinity}
