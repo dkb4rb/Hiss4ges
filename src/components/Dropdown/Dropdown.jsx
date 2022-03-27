@@ -1,0 +1,69 @@
+import React from "react";
+import "./Dropdown.css";
+
+import { cerrarSesion } from "../../helpers/cerrarSesion";
+import { alerta } from "../../helpers/alerta";
+
+const Dropdown = () => {
+  return (
+    <div className="dropdown">
+      <ul className="dropdown-menu">
+        <div>
+          <div>
+            <button className="btn btns_drop" type="button" onClick={alerta}>
+              Mensajs
+            </button>
+          </div>
+        </div>{" "}
+        <div>
+          <div>
+            <button className="btn btns_drop" type="button" onClick={alerta}>
+              Notificaciones
+            </button>
+          </div>
+        </div>
+        <div>
+          <div>
+            <button className="btn btns_drop" type="button" onClick={alerta}>
+              Mis Amigos
+            </button>
+          </div>
+        </div>
+        <div>
+          <div>
+            <button className="btn btns_drop" type="button" onClick={alerta}>
+              Mis Favoritos
+            </button>
+          </div>
+        </div>
+        <div>
+          <div>
+            <button className="btn btns_drop" type="button" onClick={alerta}>
+              Cuenta
+            </button>
+          </div>
+        </div>
+        <div>
+          <div>
+            <button className="btn btns_drop" type="button" onClick={alerta}>
+              Ayuda
+            </button>
+          </div>
+        </div>
+        <div>
+          <div>
+            <button
+              className="btn btns_drop"
+              type="button"
+              onClick={cerrarSesion}
+            >
+              Cerrar Sesión
+            </button>
+          </div>
+        </div>
+      </ul>
+    </div>
+  );
+};
+
+export default Dropdown;

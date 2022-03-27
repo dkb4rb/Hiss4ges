@@ -1,0 +1,89 @@
+.container_render {
+  margin: auto;
+}
+
+.container_menu {
+  text-align: center;
+}
+
+.new_section {
+  color: darkgray;
+  background-color: #82828a21;
+  border-radius: 10px;
+}
+
+.usuarios {
+  margin: auto;
+  margin-left: 12px;
+
+  max-width: 100%;
+  width: 40%;
+
+  margin-top: 102px;
+  height: 516px;
+}
+.chat {
+  margin: auto;
+
+  max-width: 100%;
+  width: 58%;
+
+  margin-top: 102px;
+  height: 516px;
+}
+
+.first_grid {
+  display: flex;
+  max-width: 90%;
+  margin: auto;
+}
+
+.finish_layout {
+}
+
+.Typical {
+  background-color: #6a54545c;
+  font-size: 42px;
+  color: #7a8be329;
+}
+
+.input-groupp {
+  position: absolute;
+  display: flex;
+  align-items: stretch;
+  width: 630px;
+  bottom: 0px;
+  right: 130px;
+}
+
+.emoji_icon {
+  font-size: 25px;
+  color: dimgrey;
+  cursor: pointer;
+}
+
+.new_send {
+  font-size: 20px;
+  margin: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.new_encription {
+  font-size: 20px;
+  margin: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.new_file {
+  font-size: 20px;
+  margin: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}

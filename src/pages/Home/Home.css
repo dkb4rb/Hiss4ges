@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Modak|Roboto| Cookie");
+
+.Container_Layouut {
+  text-align: center;
+}
+.logohi {
+  margin-top: 30px;
+  width: 19%;
+  margin-left: 40%;
+}
+
+.middle {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 150px;
+  text-align: center;
+  font-family: "Cookie";
+}
+
+.Img_Background_Menu {
+  background-image: url("https://media4.giphy.com/media/CQmiWaZrl5TJrCLX9o/giphy.gif?cid=790b761…&rid=giphy.gif&ct=s");
+  height: 580px;
+  background-size: 470px;
+  background-repeat: no-repeat;
+  background-position: 150px 125px;
+}
+
+.Img_Background_Login {
+  background-image: url("https://media3.giphy.com/media/bvPweH3WHCSQat1Opo/giphy.gif?cid=790b7611203fca789f5ef00a652e5f307b298823676a3bb4&rid=giphy.gif&ct=s");
+  height: 580px;
+  background-size: 700px;
+  background-repeat: no-repeat;
+}
+.Img_Background_Register {
+  background-image: url("https://media0.giphy.com/media/LKjoiIQ2EykdIwR8A1/giphy.gif?cid=790b7611660cce41be5b70d57f598757b4adfba007f717d2&rid=giphy.gif&ct=s");
+  height: 580px;
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+
+.Home_buttons {
+  color: #3f85ec;
+  position: absolute;
+  margin: auto;
+  display: grid;
+  top: 233px;
+  left: 160px;
+  /* display: grid; */
+}
+
+.Home_Message {
+  font-size: 110%;
+  display: grid;
+  position: absolute;
+  margin: auto;
+  left: 500px;
+  top: 260px;
+}
+
+.Img_container {
+  margin: auto;
+  width: 45%;
+  height: auto;
+  margin-left: 55%;
+  position: absolute;
+  top: 45px;
+}
+
+.Foot {
+  width: 100%;
+  font-size: 120%;
+  position: absolute;
+  bottom: 0px;
+  color: rgba(28, 28, 230, 0.693);
+  text-align: center;
+}
+
+.btnn {
+  display: inline-block;
+  margin-top: 30px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #7a8b9b6d;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  background-color: #130d0d80;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 26px !important;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btnn:hover {
+  box-shadow: 0px 0px 54px 8px;
+  color: #537290;
+  background: #20213f;
+}
+
+.tras {
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+.tras:hover {
+  -webkit-transform: perspective(170px) rotateY(16deg);
+  transform: perspective(170px) rotateY(16deg);
+}

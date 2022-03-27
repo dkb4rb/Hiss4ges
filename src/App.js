@@ -1,8 +1,11 @@
 import React from "react";
-import Layout from "./components/Layout/Layout.jsx";
+import Routes from "./Routes/Routes";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import "./pages/Layout/Layout.css";
+import "./pages/styles/bodyHome.css";
+import "./pages/styles/App.css";
+import "./pages/styles/Buttons.css";
 const App = () => {
-  return <Layout />;
+  return <Routes />;
 };
 export default App;

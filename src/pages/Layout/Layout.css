@@ -1,0 +1,17 @@
+.Img_container {
+  margin: auto;
+  width: 45%;
+  height: auto;
+  margin-left: 55%;
+  position: absolute;
+  top: 45px;
+}
+
+.Foot {
+  width: 100%;
+  font-size: 120%;
+  position: absolute;
+  bottom: 0px;
+  color: rgba(28, 28, 230, 0.693);
+  text-align: center;
+}
